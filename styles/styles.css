@@ -1,0 +1,360 @@
+/*CARDS*/
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 15px;
+    column-gap: 15px;
+    width: 100%;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+.card {
+    background-color: #fff;
+    border-radius: 0.25rem;
+    box-shadow: 0rem 0.125rem 1.5rem rgb(0 0 0 / 12%);
+    width: 24rem;
+  }
+  
+  img {
+    border-bottom: 0.25rem solid #BF6900;
+    border-radius: 0.25rem 0.25rem 0 0;
+    height: auto;
+    width: 100%;
+  }
+
+  .card-content {
+    padding: 1rem;
+  }
+  
+  .header,
+  .subheader {
+    margin: 0;
+  }
+
+/*OTHER CONTENT*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+  ::selection {
+    color: #BF6900;
+    background: rgb(255, 255, 255);
+  }
+
+/*FONTS*/
+h1 {
+    font-family: "Great Vibes", cursive;
+    border: 6px double rgb(255, 255, 255);
+    padding: 30px;
+}
+
+h2, h3, h4, h5, button {
+    font-family: "Kay Pho Du", serif;
+}
+
+p, li, summary {
+    font-family: "Duru Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* HERO SECTION */
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #CCC9A1;
+  }
+
+.hero-container {
+   height: 100%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+}
+
+.hero-image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-text {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+/* CONTENT SECTION */
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content-text {
+    text-align: center;
+    color: #fff;
+    
+}
+
+.content-image {
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    padding-right: 5%;
+    
+
+}
+
+.content-image img {
+    max-width: 100%;
+    max-height: 100%; 
+    object-fit: contain; 
+    width: auto;
+    height: auto;
+    margin-top: 20%;
+}
+
+.content-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.content-btn {
+    background-color: #433E0E;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.4s;
+}
+
+.content-btn:hover {
+    background-color: #807830
+}
+
+/* ACCORDION SECTION */
+.accordion-h2 {
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.accordion-container {
+    color: #fff;
+    padding: 4rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.accordion-button {
+    background-color: #433E0E;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: background-color 0.4s;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: #807830;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.accordion-button.active,
+.accordion-button:hover {
+    background-color: #807830;
+}
+
+.accordion-button::after {
+    content: '\002B';
+    color: #ffffff;
+    float: right;
+    margin-left: 5px;
+}
+
+.accordion-button.active::after {
+    content: "\2212";
+}
+
+/* FOOTER SECTION */
+.footer-container {
+    background-color: rgb(173, 171, 135);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    color: #fff;
+    justify-content: space-evenly;
+    padding-top: 4rem;
+}
+
+.footer-item {
+    flex-basis: 25%;
+    padding: 2.5px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.map {
+    height: 0%;
+    overflow: hidden;
+    max-width: 600;
+    aspect-ratio: 16 / 9;
+}
+
+.map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+ul {
+    height: 100%;
+}
+.copy {
+    flex-basis: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+/*BREAKPOINTS*/
+/*mobile*/
+@media screen and (max-width: 768px) {
+    .footer-item {
+        flex-basis: 100%;
+    }
+
+    .map {
+        flex-basis: 80%;
+        max-width: 400px;
+        aspect-ratio: 16 / 9;
+    }
+}
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .footer-item {
+        flex-basis: 50%;
+    }
+
+    .map {
+        flex-basis: 50%;
+        max-width: 500px;
+        aspect-ratio: 16 / 9;
+    }
+}
+
+/*LINK STYLES*/
+li {
+    list-style: none;
+    color:#ffffff;
+    color: #807830;
+    text-decoration: none;
+}
+
+li:hover {
+    color: white;
+}
+
+.pink-link:hover {
+    color: #807830;
+}
+
+.pink-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*VIDEO*
+.vid-container {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-bottom: 5%;
+    aspect-ratio: 16 / 9;
+    transition: padding-bottom 0.5s ease;
+  }
+  
+  iframe { 
+    top: 0;
+    left: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* I wasnt sure if I needed the bottom specifications as it seemed like it was already responsive from what I added above? */
+  
+    /* Mobile */
+    @media screen and (max-width: 768px) {
+        .vid-container {
+          padding-bottom: 9%;
+      }
+  }
+  
+    /* Tablet */
+    @media screen and (min-width: 768px) and (max-width: 1199px){
+      .vid-container {
+        padding-bottom: 7%;
+      }
+  }
