@@ -55,6 +55,7 @@ h1 {
     font-family: "Great Vibes", cursive;
     border: 6px double rgb(255, 255, 255);
     padding: 35px;
+    box-shadow: 1px 1px 2px #433E0E;
 }
 
 h2, h3, h4, h5, button {
@@ -105,7 +106,7 @@ body, html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
+    text-shadow: 1px 1px 2px #433E0E;
 }
 
 /* CONTENT SECTION */
