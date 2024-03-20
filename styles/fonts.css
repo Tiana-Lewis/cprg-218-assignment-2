@@ -1,10 +1,10 @@
 body {
-    font-family: "Roboto", sans-serif;
-    font-size: 1rem;
-    font-weight: 500;
+    font-family: "Duru Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     line-height: 1.1;
   }
-  
+
   h1,
   h2,
   h3,
@@ -39,7 +39,7 @@ body {
   
   p {
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.5;
   }
   
@@ -47,4 +47,45 @@ body {
   button {
     font-size: 1rem;
     font-weight: 500;
+  }
+
+/*h1*/
+
+  .great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /*Other text*/
+  .kay-pho du-regular {
+    font-family: "Kay Pho Du", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .kay-pho du-medium {
+    font-family: "Kay Pho Du", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .kay-pho du-semibold {
+    font-family: "Kay Pho Du", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .kay-pho du-bold {
+    font-family: "Kay Pho Du", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  /*para*/
+
+  .duru-sans-regular {
+    font-family: "Duru Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }

@@ -19,7 +19,7 @@ body {
     width: 24rem;
   }
   
-  img {
+  .c-img {
     border-bottom: 0.25rem solid #BF6900;
     border-radius: 0.25rem 0.25rem 0 0;
     height: auto;
@@ -131,7 +131,10 @@ body, html {
 .content-text {
     text-align: center;
     color: #fff;
-    
+    border: #ffffff solid;
+    border-width: 1px;
+    padding: 2rem;
+    background-color: #ADAB87;
 }
 
 .content-image {
@@ -141,8 +144,6 @@ body, html {
     justify-content: center;
     max-width: 100%;
     padding-right: 5%;
-    
-
 }
 
 .content-image img {
@@ -171,8 +172,9 @@ body, html {
     display: inline-block;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 4px;
     transition: 0.4s;
+    border: #ffffff solid;
+    border-width: 1px;
 }
 
 .content-btn:hover {
@@ -180,9 +182,14 @@ body, html {
 }
 
 /* ACCORDION SECTION */
-.accordion-h2 {
+.banner-h2 {
     text-align: center;
-    padding-bottom: 1.5rem;
+    padding-bottom: 1.5rem; 
+    background-color: #ADAB87;
+    padding-top: 1.5rem;
+    color: #fff; 
+    border: #ffffff solid;
+    border-width: 1px;
 }
 
 .accordion-container {
@@ -244,7 +251,7 @@ body, html {
 
 .footer-item {
     flex-basis: 25%;
-    padding: 2.5px;
+    padding: 2.5rem;
     margin-bottom: 20px;
     justify-content: center;
 }
