@@ -30,14 +30,14 @@
     /* Mobile */
     @media screen and (max-width: 768px) {
       .vid-container {
-        padding-bottom: 9%;
+        padding-bottom: 5%;
     }
 }
 
   /* Tablet */
   @media screen and (min-width: 768px) and (max-width: 1199px){
     .vid-container {
-      padding-bottom: 7%;
+      padding-bottom: 5%;
     }
 }
 
