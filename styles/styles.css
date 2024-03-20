@@ -54,7 +54,7 @@ html {
 h1 {
     font-family: "Great Vibes", cursive;
     border: 6px double rgb(255, 255, 255);
-    padding: 30px;
+    padding: 35px;
 }
 
 h2, h3, h4, h5, button {
@@ -328,29 +328,25 @@ li:hover {
     text-decoration: none;
 }
 
-/*VIDEO*
+/*video*/
 .vid-container {
     position: relative;
     display: block;
     overflow: hidden;
     width: 100%;
     height: 100%;
-    max-width: 100%;
+    max-width: 1150px;
     margin: 0 auto;
-    padding-bottom: 5%;
     aspect-ratio: 16 / 9;
-    transition: padding-bottom 0.5s ease;
   }
   
-  iframe { 
+  .video { 
     top: 0;
     left: 0;
     position: relative;
     width: 100%;
     height: 100%;
   }
-  
-  /* I wasnt sure if I needed the bottom specifications as it seemed like it was already responsive from what I added above? */
   
     /* Mobile */
     @media screen and (max-width: 768px) {
