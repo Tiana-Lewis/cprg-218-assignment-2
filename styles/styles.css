@@ -52,18 +52,18 @@ html {
 
 /*FONTS*/
 h1 {
-    font-family: "Great Vibes", cursive;
+    font-family: "Mea Culpa", cursive;
     border: 6px double rgb(255, 255, 255);
     padding: 35px;
     box-shadow: 1px 1px 2px #433E0E;
 }
 
 h2, h3, h4, h5, button {
-    font-family: "Kay Pho Du", serif;
+    font-family: "Karla", sans-serif;
 }
 
 p, li, summary {
-    font-family: "Duru Sans", sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
 }

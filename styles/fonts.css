@@ -51,41 +51,25 @@ body {
 
 /*h1*/
 
-  .great-vibes-regular {
-    font-family: "Great Vibes", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
+.estonia-regular {
+  font-family: "Estonia", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 
-  /*Other text*/
-  .kay-pho du-regular {
-    font-family: "Kay Pho Du", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .kay-pho du-medium {
-    font-family: "Kay Pho Du", serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .kay-pho du-semibold {
-    font-family: "Kay Pho Du", serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-  .kay-pho du-bold {
-    font-family: "Kay Pho Du", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
+/*h2*/
+.karla {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
 
-  /*para*/
+/*para li and others*/
 
-  .duru-sans-regular {
-    font-family: "Duru Sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+.benne-regular {
+  font-family: "Benne", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+  
