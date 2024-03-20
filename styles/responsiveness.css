@@ -43,28 +43,30 @@
 
 /*Footer*/
 
-    /*mobile*/
-    @media screen and (max-width: 768px) {
-      .footer-item {
-          flex-basis: 100%;
-      }
+/* Mobile */
+@media screen and (max-width: 768px) {
+  .footer-item {
+      flex-basis: 100%;
+  }
 
-      .map {
-          flex-basis: 80%;
-          max-width: 400px;
-          aspect-ratio: 16 / 9;
-      }
-    }
+  .map {
+      width: 100%; /* Ensure the map takes full width */
+      max-width: none; /* Remove max-width to allow full responsiveness */
+      aspect-ratio: 16 / 9;
+      padding-left: 1rem;
+      padding-right: 1rem;
+  }
+}
 
-    /* tablet */
-    @media screen and (min-width: 768px) and (max-width: 1024px) {
-      .footer-item {
-          flex-basis: 50%;
-      }
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .footer-item {
+      flex-basis: 50%;
+  }
 
-      .map {
-          flex-basis: 50%;
-          max-width: 500px;
-          aspect-ratio: 16 / 9;
-      }
-    }
+  .map {
+      width: 100%; /* Ensure the map takes full width */
+      max-width: 500px; /* Limit maximum width to 500px */
+      aspect-ratio: 16 / 9;
+  }
+}
