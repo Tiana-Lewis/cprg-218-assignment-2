@@ -52,14 +52,14 @@ body {
 /*h1*/
 
 .estonia-regular {
-  font-family: "Estonia", cursive;
+  font-family: "Mea Culpa", cursive, Garamond;
   font-weight: 400;
   font-style: normal;
 }
 
 /*h2*/
 .karla {
-  font-family: "Karla", sans-serif;
+  font-family: "Karla", sans-serif, Arial;
   font-weight: 700;
   font-style: normal;
 }
@@ -67,7 +67,7 @@ body {
 /*para li and others*/
 
 .benne-regular {
-  font-family: "Benne", serif;
+  font-family: "Lato", serif, Arial;
   font-weight: 400;
   font-style: normal;
 }

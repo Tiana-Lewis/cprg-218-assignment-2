@@ -52,18 +52,18 @@ html {
 
 /*FONTS*/
 h1 {
-    font-family: "Mea Culpa", cursive;
+    font-family: "Mea Culpa", cursive, Garamond;
     border: 6px double rgb(255, 255, 255);
     padding: 35px;
     box-shadow: 1px 1px 2px #433E0E;
 }
 
 h2, h3, h4, h5, button {
-    font-family: "Karla", sans-serif;
+    font-family: "Karla", sans-serif, Arial;
 }
 
 p, li, summary {
-    font-family: "Lato", sans-serif;
+    font-family: "Lato", serif, Arial;
     font-weight: 400;
     font-style: normal;
 }
