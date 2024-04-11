@@ -45,6 +45,7 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
   ::selection {
     color: #BF6900;
     background: rgb(255, 255, 255);
@@ -52,14 +53,25 @@ html {
 
 /*FONTS*/
 h1 {
-    font-family: "Mea Culpa", cursive, Garamond;
+    font-family: "Reem Kufi Fun", sans-serif, Helvetica;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
     border: 6px double rgb(255, 255, 255);
     padding: 35px;
     box-shadow: 1px 1px 2px #433E0E;
 }
 
+h2 {
+    font-weight: bolder;
+}
+
 h2, h3, h4, h5, button {
     font-family: "Karla", sans-serif, Arial;
+}
+
+h3 {
+    font-weight: bold;
 }
 
 p, li, summary {
@@ -74,7 +86,7 @@ body, html {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #CCC9A1;
+    background-color: #676F32;
   }
 
 .hero-container {
@@ -135,7 +147,7 @@ body, html {
     border: #ffffff solid;
     border-width: 1px;
     padding: 2rem;
-    background-color: #ADAB87;
+    background-color: #474D21;
 }
 
 .content-image {
@@ -179,14 +191,14 @@ body, html {
 }
 
 .content-btn:hover {
-    background-color: #807830
+    background-color: #000000
 }
 
 /* ACCORDION SECTION */
 .banner-h2 {
     text-align: center;
     padding-bottom: 1.5rem; 
-    background-color: #ADAB87;
+    background-color: #474D21;
     padding-top: 1.5rem;
     color: #fff; 
     border: #ffffff solid;
@@ -201,7 +213,7 @@ body, html {
 }
 
 .accordion-button {
-    background-color: #433E0E;
+    background-color: #676F32;
     color: #ffffff;
     cursor: pointer;
     padding: 15px;
@@ -216,14 +228,14 @@ body, html {
 
 .panel {
     padding: 0 18px;
-    background-color: #807830;
+    background-color: #000000;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
 
 .accordion-button:hover {
-    background-color: #807830;
+    background-color: #000000;
 }
 
 /*ICONS IN ACCORDION*/
@@ -270,7 +282,7 @@ body, html {
 
 /* FOOTER SECTION */
 .footer-container {
-    background-color: rgb(173, 171, 135);
+    background-color: #474D21;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
@@ -326,7 +338,7 @@ li:hover {
 }
 
 .wht-link:hover {
-    color: #807830;
+    color: #fff27c;
 }
 
 .wht-link {
